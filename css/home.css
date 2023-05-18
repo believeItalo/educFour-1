@@ -1,0 +1,27 @@
+.logo{
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+.logo img{
+    height: 15vh;
+}
+.options{
+    display: flex;
+    gap: 16px;
+    font-weight: 400;
+    font-size: 1.7rem;
+    justify-content: center;
+}
+.options a:hover{
+    color: var(--dark-red);
+}
+
+.phrase{
+    width: 20vw;
+    font-weight: 600;
+    font-size: 3.5rem;
+}
+.comunity{
+    height: 55vh;
+}
