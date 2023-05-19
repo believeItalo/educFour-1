@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="../js/sideNav.js"></script>
+    <script src="../js/carrousel.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/121a930925.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/sideNav.css">
+    <link rel="stylesheet" href="../css/project.css">
+    <link rel="stylesheet" href="../css/carroussel.css">
+    <link rel="stylesheet" href="../css/mobile.css">
+    <title>EducFour</title>
+</head>
+
+<body>
+        <header>
+                <p class="title">Projetos</p>
+            </a>
+            <nav>
+                <i onclick="openNavHalf()" id="icon-half-menu" class="fas fa-bars"></i>
+                <ul id="mySidenav" class="sidenav">
+                    <li>
+                        <a href="#" class="closebtn" onclick="closeNav()"><i class="fas fa-times"></i></a>
+                    </li>
+                    <li>
+                        <a href="../index.html">Página Inicial</a>
+                    </li>
+                    <li>
+                        <a href="./inscription.html">Inscrição</a>
+                    </li>
+                    <li>
+                        <a href="./timeline.html">Cronograma</a>
+                    </li>
+                    <li>
+                        <a href="./newspaper.html">Jornal</a>
+                    </li>
+                    <li>
+                        <a href="./about_us.html">Sobre Nós</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="container_about_us">
+                <div class="container_text_about_us">
+                    <div class="text_about_us">
+                        <span class="title_about_us">Quem somos</span>
+                        <p class="paragraph_about_us">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                            unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+                            survived not only five centuries, but also the leap into electronic typesetting, remaining
+                            essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+                            containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
+                            PageMaker including versions of Lorem Ipsum.</p>
+                    </div>
+                </div>
+
+                <div class="swiffy-slider">
+                    <ul class="slider-container">
+                        <li><img src="../img/teste1.jpg"></li>
+                        <li><img src="../img/teste2.jpg"></li>
+                        <li><img src="../img/teste3.jpg"></li>
+                        <li><img src="../img/teste4.jpg"></li>
+                    </ul>
+                
+                    <button type="button" class="slider-nav"></button>
+                    <button type="button" class="slider-nav slider-nav-next"></button>
+                
+                    <div class="slider-indicators">
+                        <button class="active"></button>
+                        <button></button>
+                        <button></button>
+                        <button></button>
+                    </div>
+                </div>
+
+                <div class="container_text_about_us">
+                    <div class="text_about_us">
+                        <span class="title_about_us">Nossa missão</span>
+                        <p class="paragraph_about_us">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                            unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+                            survived not only five centuries, but also the leap into electronic typesetting, remaining
+                            essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+                            containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
+                            PageMaker including versions of Lorem Ipsum.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+        </footer>
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+              <div class="vw-plugin-top-wrapper"></div>
+            </div>
+          </div>
+          <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+          <script>
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+          </script>
+</body>
+
+</html>

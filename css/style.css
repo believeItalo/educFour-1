@@ -13,12 +13,13 @@ header{
     color: var(--dark-grey);
     display: flex;
     justify-content: space-between;
-    height: 25vh;
     width: 100%;
     align-content: center;
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 40px;
+    align-items: center;
+    height: 100%;
 }
 main{
     display: flex;
@@ -27,17 +28,18 @@ main{
     align-content: center;
     align-items: center;
 }
-#icon-half-menu {
-    display: none;
+.title{
+    font-weight: 700;
+    font-size: 2rem;
+    color: #000;
 }
-footer{
-    display: flex;
-    height: 5vh;
-    width: 100%;
-    color: var(--dark-grey);
-    align-items: center;
-    justify-content: space-between;
-    padding: 50px;
+.logo{
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+.logo img{
+    height: 15vh;
 }
 .social_icons{
     display: flex;

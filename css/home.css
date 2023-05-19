@@ -1,10 +1,8 @@
-.logo{
-    text-align: center;
-    font-weight: 700;
-    font-size: 1.7rem;
+header{
+    height: 25vh;
 }
-.logo img{
-    height: 15vh;
+#icon-half-menu {
+    display: none;
 }
 .options{
     display: flex;
@@ -24,4 +22,13 @@
 }
 .comunity{
     height: 55vh;
+}
+footer{
+    display: flex;
+    height: 5vh;
+    width: 100%;
+    color: var(--dark-grey);
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
 }

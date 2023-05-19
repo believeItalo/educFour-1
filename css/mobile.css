@@ -6,6 +6,9 @@
     .options{
         display: none;
     }
+    #icon-half-menu {
+        display: block;
+    }
     main{
         display: flex;
         flex-direction: column;
@@ -33,6 +36,9 @@
     }
     .options{
         display: none;
+    }
+    #icon-half-menu {
+        display: block;
     }
     main{
         display: flex;
